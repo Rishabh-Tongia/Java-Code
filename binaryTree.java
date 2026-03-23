@@ -26,7 +26,7 @@ public class binaryTree {
             root.left = insert(val,root.left);
         }
         else{
-            root.right = insert()
+            root.right = insert();
         }
     }
 

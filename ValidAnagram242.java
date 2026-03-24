@@ -13,6 +13,24 @@ public class ValidAnagram242 {
 
         return Arrays.equals(s_sorted,t_sorted);
     }
+
+    // //Using HashMap 
+    // public boolean isAnagram(String s, String t) {
+    //     if(s.length() != t.length()){
+    //         return false;
+    //     }
+
+    //     Map<Character,Integer> mapS = new HashMap<>();
+    //     Map<Character,Integer> mapT = new HashMap<>();
+    //     for(int i=0;i<s.length();i++){
+    //         mapS.put(s.charAt(i),mapS.getOrDefault(s.charAt(i),0)+1);
+    //         mapT.put(t.charAt(i),mapT.getOrDefault(t.charAt(i),0)+1);
+    //     }
+
+    //     if(mapS.equals(mapT)) return true;
+
+    //     return false;
+    // }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
